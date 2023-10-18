@@ -1,0 +1,22 @@
+<sdf version='1.6'>
+  <world name='default'>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    
+    <include>
+      <uri>model://robot_tank_floor</uri>
+      <name>robot_tank_floor</name>
+      <pose>2.495400 1.483822 0.010000 0.00 0.00 0.00</pose>
+    </include>
+    <include>
+      <uri>model://robot_tank_walls</uri>
+      <name>robot_tank_walls</name>
+      <pose>1.500525 1.203413 0.010000 0.0 0.0 0.0</pose>
+    </include>
+  
+  </world>
+</sdf>   
